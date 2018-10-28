@@ -1518,6 +1518,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4082384597410132}
+  - component: {fileID: 65596239714900436}
   m_Layer: 0
   m_Name: House 1
   m_TagString: Untagged
@@ -1902,8 +1903,8 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1837319841935348}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -57.024796, y: 104, z: 54.05403}
+  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 32.3, y: 104, z: 54.05403}
   m_LocalScale: {x: 5.6218624, y: 5.6218624, z: 5.6218624}
   m_Children:
   - {fileID: 4388208605291124}
@@ -1954,7 +1955,7 @@ Transform:
   - {fileID: 4364431817068448}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!4 &4100058933970428
 Transform:
   m_ObjectHideFlags: 1
@@ -4376,6 +4377,18 @@ MeshCollider:
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 0}
+--- !u!65 &65596239714900436
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1837319841935348}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.7499356, y: 4.947364, z: 6.0551624}
+  m_Center: {x: 2.3749678, y: 1.9736825, z: -1.0909387}
 --- !u!108 &108306181956653830
 Light:
   m_ObjectHideFlags: 1
